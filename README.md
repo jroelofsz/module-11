@@ -24,7 +24,6 @@ pip install pandas
 pip install beautifulsoup4
 pip install splinter[selenium]
 pip install matplotlib
-pip install chromedriver_autoinstaller
 pip install lxml
 pip install html5lib
 ```
@@ -37,12 +36,17 @@ conda install -c conda-forge beautifulsoup4
 conda install -c conda-forge splinter
 conda install -c conda-forge selenium
 conda install -c conda-forge matplotlib
-conda install -c conda-forge chromedriver_autoinstaller
 conda install -c conda-forge lxml
 conda install -c conda-forge html5lib
 ```
 
 **Please note:** My notebooks executed in chrome without the chromedriver_autoinstaller. However, your's may not. If you run into issues without it, please install it. 
+
+```shell
+conda install -c conda-forge chromedriver_autoinstaller
+or
+pip install chromedriver_autoinstaller
+```
 
 ---
 ## Execution
