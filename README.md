@@ -41,6 +41,9 @@ conda install -c conda-forge chromedriver_autoinstaller
 conda install -c conda-forge lxml
 conda install -c conda-forge html5lib
 ```
+
+**Please note:** My notebooks executed in chrome without the chromedriver_autoinstaller. However, your's may not. If you run into issues without it, please install it. 
+
 ---
 ## Execution
 
